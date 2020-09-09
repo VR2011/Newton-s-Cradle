@@ -72,6 +72,11 @@ function mouseDragged(){
     }
 }
 
+function keyPressed(){
+    if(keyCode === 38){
+        Matter.Body.applyForce(bobObject1.body, bobObject1.body.position, {x:-200, y:-0});
+    }
+}
 
 function mouseReleased(){
     gameState = "launched";
