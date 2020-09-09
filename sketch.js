@@ -62,7 +62,7 @@ function draw() {
   stringy4.display();
   stringy5.display();
   textSize(30);
-  text("The first bob works fine, but the rest go a little crazy.", 300, 50);
+  text("Press the up arrow to start the motion.", 350, 50);
   drawSprites();
 }
 
